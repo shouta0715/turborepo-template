@@ -11,7 +11,8 @@
     "check-types": "tsc --noEmit",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
+    "storybook:build": "storybook build",
+    "check": "pnpm check-types && pnpm lint && pnpm format"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.5",

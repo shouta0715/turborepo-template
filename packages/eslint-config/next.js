@@ -5,7 +5,7 @@ import nextPlugin from "@next/eslint-plugin-next";
 
 const config = tseslint.config(...tsConfig, ...reactConfig, {
   name: "next",
-  files: ["**/*.ts", "**/*.tsx"],
+  files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
   plugins: {
     "@next/next": nextPlugin,
   },
