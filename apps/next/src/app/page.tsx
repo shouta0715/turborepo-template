@@ -25,6 +25,7 @@ export default function Home() {
             >
               {color}
             </p>
+
             <ul className="flex gap-4">
               {Array.from({ length: 10 }).map((_, i) => (
                 <li

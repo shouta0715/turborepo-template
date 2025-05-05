@@ -13,12 +13,15 @@
     "check-types": {
       "dependsOn": ["^check-types"]
     },
+    "format": {
+      "dependsOn": ["^format"]
+    },
+    "check": {
+      "dependsOn": ["^check"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
-    },
-    "format": {
-      "dependsOn": ["^format"]
     }
   }
 }
