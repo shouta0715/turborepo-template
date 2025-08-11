@@ -14,6 +14,13 @@ const config = tseslint.config(...tsConfig, ...reactConfig, {
     ...nextPlugin.configs["core-web-vitals"].rules,
     "@next/next/no-img-element": "error",
     "@next/next/no-async-client-component": "error",
+    "no-restricted-imports": [
+      "error",
+      {
+        name: "next/router",
+        message: "Please import from `next/navigation` instead.",
+      },
+    ],
   },
 });
 
