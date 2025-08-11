@@ -30,9 +30,6 @@ importers:
       '@package/prettier-config':
         specifier: workspace:*
         version: link:../../packages/prettier-config
-      '@package/tailwind-config':
-        specifier: workspace:*
-        version: link:../../packages/tailwind-config
       '@package/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -91,9 +88,6 @@ importers:
       '@package/prettier-config':
         specifier: workspace:*
         version: link:../../packages/prettier-config
-      '@package/tailwind-config':
-        specifier: workspace:*
-        version: link:../../packages/tailwind-config
       '@package/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -158,9 +152,6 @@ importers:
       '@package/prettier-config':
         specifier: workspace:*
         version: link:../../packages/prettier-config
-      '@package/tailwind-config':
-        specifier: workspace:*
-        version: link:../../packages/tailwind-config
       '@package/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -254,18 +245,6 @@ importers:
       prettier-plugin-tailwindcss:
         specifier: ^0.6.11
         version: 0.6.11(prettier@3.5.3)
-
-  packages/tailwind-config:
-    dependencies:
-      '@tailwindcss/postcss':
-        specifier: ^4.1.5
-        version: 4.1.5
-      postcss:
-        specifier: ^8.5.3
-        version: 8.5.3
-      tailwindcss:
-        specifier: ^4.1.5
-        version: 4.1.5
 
   packages/typescript-config: {}
 
