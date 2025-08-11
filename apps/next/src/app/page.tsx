@@ -1,3 +1,5 @@
-export default function Home() {
-  return <main>hello</main>;
-}
+import { NextSegmentPage } from "next";
+
+const Page: NextSegmentPage = () => <main>Hello</main>;
+
+export default Page;
