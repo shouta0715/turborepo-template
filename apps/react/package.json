@@ -28,7 +28,6 @@
   "devDependencies": {
     "@package/eslint-config": "workspace:*",
     "@package/prettier-config": "workspace:*",
-    "@package/tailwind-config": "workspace:*",
     "@package/typescript-config": "workspace:*",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
