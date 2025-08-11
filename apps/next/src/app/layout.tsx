@@ -1,13 +1,10 @@
 import "@/styles/globals.css";
+import { NextSegmentLayout } from "next";
 
-type Props = {
-  children: React.ReactNode;
-};
+const RootLayout: NextSegmentLayout = ({ children }) => (
+  <html suppressHydrationWarning lang="ja">
+    <body>{children}</body>
+  </html>
+);
 
-export default async function RootLayout({ children }: Props) {
-  return (
-    <html suppressHydrationWarning lang="ja">
-      <body>{children}</body>
-    </html>
-  );
-}
+export default RootLayout;

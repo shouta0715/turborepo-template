@@ -1,7 +1,9 @@
 import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["geist"],
+  experimental: {
+    typedRoutes: true,
+  },
 };
 
 export default nextConfig;
