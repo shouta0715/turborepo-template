@@ -15,6 +15,7 @@
     "check": "pnpm check-types && pnpm lint && pnpm format"
   },
   "dependencies": {
+    "@t3-oss/env-nextjs": "^0.13.8",
     "@tailwindcss/postcss": "^4.1.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
