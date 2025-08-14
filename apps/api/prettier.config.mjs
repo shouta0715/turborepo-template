@@ -1,3 +1,3 @@
-import withTailwind from "@package/prettier-config/tailwind";
+import config from "@package/prettier-config/base";
 
-export default withTailwind("./src/styles/globals.css");
+export default config;

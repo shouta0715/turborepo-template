@@ -7,7 +7,7 @@
     "./base": "./base.mjs",
     "./tailwind": "./tailwind.mjs"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.14"
   }
