@@ -1,0 +1,9 @@
+pre-push:
+  parallel: true
+  commands:
+    lint:
+      glob: "*.{js,jsx,ts,tsx}"
+      run: npx eslint {push_files}
+    format:
+      glob: "*.{js,jsx,ts,tsx}"
+      run: npx prettier --write {push_files}
