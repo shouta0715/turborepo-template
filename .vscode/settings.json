@@ -4,7 +4,6 @@
     "source.addMissingImports",
     "source.fixAll.eslint"
   ],
-
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
