@@ -49,6 +49,7 @@ const config = tseslint.config(
         },
       ],
       "react/self-closing-comp": "error",
+      "react/jsx-boolean-value": ["error", "never"],
       "react/jsx-filename-extension": [
         "error",
         {
