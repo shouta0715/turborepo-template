@@ -10,8 +10,6 @@
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build",
     "check": "pnpm check-types && pnpm lint && pnpm format"
   },
   "dependencies": {
