@@ -33,6 +33,9 @@ const config = tseslint.config(
       "**/public/**",
       "**/.next/**",
       "**/.turbo/**",
+      "**/.wrangler/**",
+      "**/.vercel/**",
+      "**/.expo/**",
     ],
   },
   {
