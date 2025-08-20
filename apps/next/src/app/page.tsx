@@ -1,5 +1,5 @@
-import { NextSegmentPage } from "next";
-
-const Page: NextSegmentPage = () => <main>Hello</main>;
+function Page() {
+  return <main>Hello</main>;
+}
 
 export default Page;
