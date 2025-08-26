@@ -5,7 +5,7 @@
     "dev": "wrangler dev --port 8000",
     "deploy": "wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings",
-    "lint": "eslint .",
+    "lint": "eslint . --max-warnings=0 ",
     "check-types": "tsc --noEmit",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check": "pnpm check-types && pnpm lint && pnpm format"
