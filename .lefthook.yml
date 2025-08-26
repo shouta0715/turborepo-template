@@ -4,19 +4,19 @@ pre-push:
     to-next-lint:
       root: apps/next/
       glob: "*.{js,jsx,ts,tsx}"
-      run: pnpm eslint --fix {push_files}
+      run: pnpm eslint --fix --no-warn-ignored {push_files}
     to-react-lint:
       root: "apps/react/"
       glob: "*.{js,jsx,ts,tsx}"
-      run: pnpm eslint --fix {push_files}
+      run: pnpm eslint --fix --no-warn-ignored {push_files}
     to-api-lint:
       root: "apps/api/"
       glob: "*.{js,jsx,ts,tsx}"
-      run: pnpm eslint --fix {push_files}
+      run: pnpm eslint --fix --no-warn-ignored {push_files}
     to-native-lint:
       root: "apps/native/"
       glob: "*.{js,jsx,ts,tsx}"
-      run: pnpm eslint --fix {push_files}
+      run: pnpm eslint --fix --no-warn-ignored {push_files}
 
     to-next-format:
       root: apps/next/
