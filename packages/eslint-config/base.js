@@ -36,6 +36,7 @@ const config = tseslint.config(
       "**/.wrangler/**",
       "**/.vercel/**",
       "**/.expo/**",
+      "**/*.d.ts",
     ],
   },
   {
