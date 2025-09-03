@@ -1,8 +1,8 @@
-import tseslint from "typescript-eslint";
 import turbo from "eslint-plugin-turbo";
 import eslintConfigPrettier from "eslint-config-prettier/flat";
+import { defineConfig } from "eslint/config";
 
-const config = tseslint.config(
+const config = defineConfig(
   {
     name: "settings",
     languageOptions: {
@@ -33,10 +33,6 @@ const config = tseslint.config(
       "**/public/**",
       "**/.next/**",
       "**/.turbo/**",
-      "**/.wrangler/**",
-      "**/.vercel/**",
-      "**/.expo/**",
-      "**/*.d.ts",
     ],
   },
   {
