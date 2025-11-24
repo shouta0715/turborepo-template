@@ -1,3 +1,3 @@
-import nativeConfig from "@package/eslint-config/native";
+import eslintConfig from "@package/eslint-config/native";
 
-export default nativeConfig;
+export default eslintConfig;
