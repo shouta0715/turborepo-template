@@ -52,7 +52,7 @@
     "postcss": "^8.5.6",
     "prettier": "catalog:",
     "tailwindcss": "^4.1.17",
-    "typescript": "~5.9.2"
+    "typescript": "catalog:"
   },
   "private": true
 }
