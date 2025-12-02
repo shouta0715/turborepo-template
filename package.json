@@ -7,10 +7,12 @@
     "lint": "turbo run lint",
     "format": "turbo run format",
     "check-types": "turbo run check-types",
-    "check": "turbo run check"
+    "check": "turbo run check",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "lefthook": "^1.12.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "prettier": "catalog:",
     "turbo": "^2.5.5",
     "typescript": "catalog:"
