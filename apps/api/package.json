@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "hono": "^4.9.0",
-    "valibot": "^1.1.0"
+    "valibot": "catalog:"
   },
   "devDependencies": {
     "@package/eslint-config": "workspace:*",
