@@ -7,10 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --max-warnings=0 ",
-    "check-types": "tsc --noEmit",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check": "pnpm check-types && pnpm lint && pnpm format"
+    "lint:eslint": "eslint . --max-warnings=0",
+    "lint:ts": "tsc --noEmit",
+    "lint:format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",

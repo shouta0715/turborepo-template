@@ -4,10 +4,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "turbo run format",
-    "check-types": "turbo run check-types",
-    "check": "turbo run check",
+    "lint": "turbo run lint:eslint lint:ts lint:format",
     "prepare": "husky"
   },
   "devDependencies": {
