@@ -4,11 +4,12 @@ packages:
 
 nodeLinker: hoisted
 
+minimumReleaseAge: 1440
+
 onlyBuiltDependencies:
   - "@swc/core"
   - "@tailwindcss/oxide"
   - esbuild
-  - lefthook
   - sharp
   - unrs-resolver
   - workerd
