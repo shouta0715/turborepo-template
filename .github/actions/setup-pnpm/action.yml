@@ -1,5 +1,5 @@
 name: "Setup pnpm"
-description: "Setup Node.js and pnpm with turbo cache"
+description: "Setup Node.js and pnpm"
 
 runs:
   using: "composite"
