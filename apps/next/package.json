@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint:eslint": "eslint . --max-warnings=0",
-    "lint:ts": "tsc --noEmit",
+    "lint:ts": "next typegen && tsc --noEmit",
     "lint:format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
