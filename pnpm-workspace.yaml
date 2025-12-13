@@ -4,7 +4,7 @@ packages:
 
 nodeLinker: hoisted
 
-# minimumReleaseAge: 1440
+minimumReleaseAge: 720
 
 onlyBuiltDependencies:
   - "@swc/core"

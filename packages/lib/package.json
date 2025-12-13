@@ -6,6 +6,11 @@
   "exports": {
     "./cn": "./src/cn.ts"
   },
+  "scripts": {
+    "lint:eslint": "eslint . --max-warnings=0",
+    "lint:ts": "tsc --noEmit",
+    "lint:format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
   "peerDependencies": {
     "tailwind-merge": "catalog:",
     "clsx": "catalog:"
