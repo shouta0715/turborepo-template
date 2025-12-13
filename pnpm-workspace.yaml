@@ -4,7 +4,7 @@ packages:
 
 nodeLinker: hoisted
 
-minimumReleaseAge: 1440
+# minimumReleaseAge: 1440
 
 onlyBuiltDependencies:
   - "@swc/core"
@@ -33,3 +33,10 @@ catalog:
   # TypeScript関連パッケージ
   # ===========================================
   typescript: ~5.9.2
+
+  # ===========================================
+  # Tailwind関連パッケージ
+  # ===========================================
+  tailwindcss: ^4.1.18
+  tailwind-merge: ^3.4.0
+  clsx: ^2.1.1
