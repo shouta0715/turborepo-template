@@ -15,7 +15,6 @@
     "@t3-oss/env-nextjs": "^0.13.8",
     "@tailwindcss/postcss": "^4.1.11",
     "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
     "eslint-config-next": "^16.0.3",
     "lucide-react": "^0.539.0",
     "next": "16.0.10",
@@ -23,10 +22,10 @@
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "server-only": "^0.0.1",
-    "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "catalog:",
     "tw-animate-css": "^1.3.6",
-    "valibot": "catalog:"
+    "valibot": "catalog:",
+    "@package/lib": "workspace:*"
   },
   "devDependencies": {
     "@package/eslint-config": "workspace:*",

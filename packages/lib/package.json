@@ -1,0 +1,21 @@
+{
+  "name": "@package/lib",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./cn": "./src/cn.ts"
+  },
+  "peerDependencies": {
+    "tailwind-merge": "catalog:",
+    "clsx": "catalog:"
+  },
+  "devDependencies": {
+    "@package/eslint-config": "workspace:*",
+    "@package/prettier-config": "workspace:*",
+    "@package/typescript-config": "workspace:*",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  }
+}
