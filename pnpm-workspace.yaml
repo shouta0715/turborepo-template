@@ -20,6 +20,7 @@ catalog:
   eslint: ^9.33.0
   typescript-eslint: ^8.47.0
   "@typescript-eslint/parser": ^8.47.0
+  "@types/node": ^24.2.1
 
   # ===========================================
   # Prettier関連パッケージ

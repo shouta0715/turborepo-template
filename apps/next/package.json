@@ -31,7 +31,7 @@
     "@package/eslint-config": "workspace:*",
     "@package/prettier-config": "workspace:*",
     "@package/typescript-config": "workspace:*",
-    "@types/node": "^24.2.1",
+    "@types/node": "catalog:",
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
     "eslint": "catalog:",

@@ -6,6 +6,9 @@ settings:
 
 catalogs:
   default:
+    '@types/node':
+      specifier: ^24.2.1
+      version: 24.10.1
     '@typescript-eslint/parser':
       specifier: ^8.47.0
       version: 8.48.1
@@ -209,7 +212,7 @@ importers:
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':
-        specifier: ^24.2.1
+        specifier: 'catalog:'
         version: 24.10.1
       '@types/react':
         specifier: ~19.1.0
@@ -282,7 +285,7 @@ importers:
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':
-        specifier: ^24.2.1
+        specifier: 'catalog:'
         version: 24.10.1
       '@types/react':
         specifier: 19.1.10
