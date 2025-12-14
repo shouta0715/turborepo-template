@@ -2,8 +2,6 @@ packages:
   - apps/*
   - packages/*
 
-nodeLinker: hoisted
-
 minimumReleaseAge: 720
 
 onlyBuiltDependencies:
